@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: goldenrod;
+}
+
+header {
+    display: flex;    
+    justify-content: space-between;
+    /*align-items: center;*/
+    padding: 10px;
+    margin-bottom: 45px;
+}
+
+header ul li a {
+    transition: 300ms;
+}
+
+header ul li a:hover {
+    color: #720505;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, #333333, #dd1818);
+}
+
+.Cabecalho h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+}
+
+.produtos div {
+    margin: 20px;
+    flex-basis: 200%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.produtos img {
+    max-width: 300px;
+}
+
+#rodape div {
+    margin: 20px;
+    padding: 10px;
+}
+
+#email h3 {
+    font-size: 15px;
+}
+
+#email input {
+    width: 50%;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#email button {
+    background: #720505;
+    padding: 5px 5px;
+    background-size: 20% 10%;
+    background-position: right bottom;
+    color: goldenrod;
+    font-weight: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 15px;
+    margin-left: -4px;
+}
+
+#email button:hover {
+    background-position: left bottom;
+    background-color: goldenrod;
+    color: #720505;
+}
+
